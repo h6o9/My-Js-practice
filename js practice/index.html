@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Practice</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container" id="main_content">
+        <!-- that is event handler technique -->
+        <div id="box-1" class="box" onclick="myfuncation()">box-1</div>
+        <!-- that is event handler technique -->
+        <div id="box-2" class="box">box-2</div>
+        <div id="box-3" class="box random-box">box-3</div>
+        <div id="box-4" class="box">box-1</div>
+        <div id="box-5" class="box boxing">box-5
+            <img>
+        </div>
+        <div id="box-6" class="box">box-5
+            <br>
+            <img>
+        </div>
+        <br>
+        <input type="text" name="name" id="input">
+    </div>
+    <div class="container">
+        <br>
+        <br>
+        <p class="container">Lorem ipsum dolor sit amet.</p>
+        <h3>Lorem ipsum dolor sit amet. <span>this is span</span></h3>
+        <p id="myParagraph">this is very very new paragraph</p>
+
+        <h4 class="heading-remome">Lorem ipsum dolor sit amet.</h4>
+        <button id="button-para">Button Event</button>
+        <p id="event-para">Lorem ipsum dolor sit amet.</p>
+        <button id="button-para1">Button Event-1</button>
+        <p id="event-para1">Lorem ipsum dolor sit amet.</p>
+        <button id="change-button">Click me</button>
+        <br>
+        <button onclick="addRow()" class="click-btn">Add Row</button>
+        <br><br>
+
+        <table class="table" border="1" id="myTable">
+            <thead>
+                <tr>
+                    <th>Muhammad Bin Sulman</th>
+                    <th>Mohammed bin Rashid Al Maktoum</th>
+                    <th>Rubee Ur Rehman Gujjar</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        <ul class="event-list" id="event-list">
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Pomegranate</li>
+        </ul>
+        <hr>
+        <form id="myform-Event">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name">
+            <br> <br>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+            <label for="age">Age</label>
+            <input type="age" id="age" name="age">
+            <br><br>
+            <br><br>
+            <input type="submit" name="submit" class="submit">
+        </form>
+        <br>
+        <br>
+        <br>
+        <form class="myfroms">
+            <label for="name" id="name">Name</label>
+            <input type="text" name="name" id="nameinput">
+            <button onclick="validateInput(event)"  >Click me</button>
+        </form>
+    </div>
+    <script src="./js/index.js">
+    </script>
+</body>
+
+</html>

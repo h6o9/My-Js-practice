@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    width: 86%;
+    margin: 0 auto;
+}
+
+.box {
+    border: 4px solid #5e3737;
+    padding: 40px;
+    margin-top: 30px;
+    color: green;
+    text-align: center;
+}
+
+#button-para {
+    padding: 15px 15px;
+    margin: 20px;
+    border: 1px solid burlywood;
+    background: burlywood;
+    border-radius: 5px;
+    color: gray;
+} 
+
+#button-para:hover {
+    background-color: aliceblue;
+}
+
+#button-para1 {
+    padding: 15px 15px;
+    margin: 20px;
+    border: 1px solid burlywood;
+    background: burlywood;
+    border-radius: 5px;
+    color: gray;
+}
+
+#button-para1:hover {
+    background-color: rgb(66, 108, 145);
+    color: #000;
+}
+
+#change-button {
+    padding: 15px 15px;
+    margin: 20px;
+    border: 1px solid burlywood;
+    background: burlywood;
+    border-radius: 5px;
+    color: gray;
+}
+
+#change-button:hover {
+    background-color: rgb(66, 108, 145);
+    color: #000;
+}
+
+.click-btn {
+    padding: 15px 15px;
+    margin: 20px;
+    border: 1px solid burlywood;
+    background: burlywood;
+    border-radius: 5px;
+    color: gray;
+}
+
+.click-btn:hover {
+    background-color: rgb(66, 108, 145);
+    color: #000;
+}
+
+.event-list {
+    margin-top: 15px;
+}
+
+.event-list li {
+    list-style: none;
+    padding: 10px 0;
+}
+
+#myform-Event {
+    margin: 50px;
+} 
+
+.submit {
+    padding: 15px 15px;
+    margin: 20px;
+    border: 1px solid burlywood;
+    background: burlywood;
+    border-radius: 5px;
+    color: gray;
+}
+
+.submit:hover {
+    background-color: rgb(66, 108, 145);
+    color: #000;
+}
